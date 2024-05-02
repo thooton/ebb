@@ -1,0 +1,258 @@
+Emily Thach 4157389246
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Join - Rewards</title>
+  <meta name="keywords" content="einstein, bros, brothers, shmear, society, rewards" />
+  <meta name="description" content="Einstein Bros. Shmear Society" />
+  <meta property="og:title" content="Rewards - Join" />
+  <meta property="og:description" content="Einstein Bros. Shmear Society" />
+
+  <meta property="og:image" content="https://rewards.einsteinbros.com/images/share-image-einstein.png" />
+  <meta property="og:image:secure_url" content="https://rewards.einsteinbros.com/images/share-image-einstein.png" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="I love you and bagels, not necessarily in that order" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/einstein/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/einstein/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/einstein/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/einstein/site.webmanifest">
+  <link rel="mask-icon" href="/favicons/einstein/safari-pinned-tab.svg" color="#493627">
+  <link rel="shortcut icon" href="/favicons/einstein/favicon.ico">
+  <meta name="msapplication-TileColor" content="#493627">
+  <meta name="msapplication-config" content="/favicons/einstein/browserconfig.xml">
+  <meta name="theme-color" content="#493627">
+
+  <link rel="stylesheet" href="/stylesheets/einstein.min.css?v=05b0334bee9504a7f5bd063cec6ce334">
+
+  <!-- Google Tag Manager -->
+  <!-- Disable the GTM tracking
+  <script>
+    var dataLayer = [];
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','');</script>
+  -->
+  <!-- End Google Tag Manager -->
+
+</head>
+
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<!-- Disable the GTM tracking
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+-->
+<!-- End Google Tag Manager (noscript) -->
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-backdrop mb-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenavbar"
+      aria-controls="sitenavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <a href="https://www.einsteinbros.com" class="navbar-brand mx-auto pr-5" target="_blank">
+      <img src="/images/logo-einstein.png" class="logo" alt="Einstein Bros. Bagels"/>
+    </a>
+  
+    <div class="collapse navbar-collapse md-8 site-nav" id="sitenavbar">
+      <ul class="navbar-nav mr-auto">
+  
+        <li class="nav-item active">
+          <a class="nav-link" href="/join">Rewards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.einsteinbros.com/menu/new-on-our-menu">Menu &amp; Nutrition</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://locations.einsteinbros.com/">Locations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/giftcard">Gift Cards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="text-center alert alert-danger p-2 ml-2 mr-2" role="alert">
+    <p class="mb-0">Email Address should match format &quot;email&quot;</p>
+  </div>
+
+
+  <div class="container pb-3">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Join Rewards!</h2>
+            <p>Love free bagels?  Earn delicious rewards by joining Shmear Society where you can eat the benefits.</p>
+            <p class="promo">Your free bagel and shmear with purchase awaits you!</p>
+
+
+            <form class="needs-validation" method="post" novalidate>
+                <div class="form-group">
+                    <label for="emailAddress" class="col-form-label">Email Address</label>
+                    <input type="email" required="true" class="form-control mailcheck" name="emailAddress" id="emailAddress"
+                        value="EmilyThach81yahoo.com" />
+                    <div id="suggestion"></div>
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber" class="col-form-label">Phone Number</label>
+                    <input type="tel" required="true" class="form-control phone-field" name="phoneNumber" id="phoneNumber" inputmode="numeric" pattern="[0-9\-\(\)\s]*"
+                        value="4154164121" />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">
+                        Please enter a valid phone number.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-lg btn-primary">Join Rewards</button>
+                    </div>
+                </div>
+                <div>
+                    <sub>
+                        Rewards Rewards Program is subject in all respects to the program Terms and
+                        Conditions,
+                        which change from time to time, and are available by clicking <a href="https://bagelbrands.com/loyalty-program-terms-and-conditions/">HERE</a>. By
+                        clicking Join, you acknowledge
+                        you have read and agree to be bound by the program Terms and Conditions.
+                    </sub>
+                </div>
+                <hr />
+                <div class="callout cta">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 col-sm-8 col-xs-12">
+                            <h3>Already a member?</h3>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-4 col-xs-12">
+                            <a href='/login' class='btn btn-primary btn-block'>Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" name="_csrf" value="Fycv5G9z-RHToJ7YWpKZDLK13tBo6WhusQLA" />
+            </form>
+        </div>
+        <div class="col-md-6 order-md-first text-center p-4">
+            <img src="/images/einstein-program-logo.png" style="max-width:100%" alt="Rewards">
+            <div class="card bg-backdrop mt-3">
+              <div class="card-body text-secondary">
+                <h3 class="card-title text-uppercase text-secondary">Questions</h3>
+                <p class="text-white">
+              <a style="color:#fff; text-decoration: underline" href="https://www.einsteinbros.com/contact/">Click Here to Contact Us</a>
+              </p>
+                <a href=https://www.einsteinbros.com/contact/faq/ >
+                  <h5 class="text-secondary">View FAQs &raquo;</h5>
+                </a>
+              </div>
+            </div>        </div>
+    </div>
+</div>
+
+<!--Disable the GTM tracking
+<script>
+dataLayer.push({
+  event: 'GAEvent',
+  eventCategory: 'Account',
+  eventAction: 'Join - 1st Step'
+})
+</script>
+-->
+
+  <footer class="footer pt-4">
+    <div class=" container-fluid bg-backdrop text-center text-uppercase pb-2">
+      <div class="row">
+        <div class="col-12 text-center">
+        <a href="https://www.einsteinbros.com" class="navbar-brand mx-auto" target="_blank">
+          <img src="/images/logo-einstein.png" alt="Einstein Bros. Bagels" />
+         </a>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-unstyled">
+              <li class="d-md-inline-block px-md-2 pt-2">
+              <a class="text-white" href="https://www.einsteinbros.com/about" target="_blank">Our Company</a>
+              </li>
+              <li class="d-md-inline-block px-md-2 pt-2">
+              <a class="text-white" href="https://www.einsteinbros.com/careers/" target="_blank">Careers</a>
+              </li>
+              <li class="d-md-inline-block px-md-2 pt-2">
+              <a class="text-white" href="https://ebcatering.com/" target="_blank">Catering</a>
+              </li>
+              <li class="d-md-inline-block px-md-2 pt-2">
+              <a class="text-white" href="https://www.einsteinbros.com/contact" target="_blank">Contact Us</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-unstyled">
+            <li class="px-md-2 text-secondary">
+              <p>®©Einstein Noah Restaurant Group, Inc. All rights reserved 2021</p>
+            </li>
+            <li class="d-md-inline-block px-md-3 pt-2">
+              <a class="text-white" href="https://bagelbrands.com/privacy-policy/" target="_blank">Your Privacy</a>
+            </li>
+            <li class="d-md-inline-block px-md-3 pt-2">
+              <a class="text-white" href="https://bagelbrands.com/terms-of-use/" target="_blank">Terms of Use</a>
+            </li>
+            <li class="d-md-inline-block px-md-3 pt-2">
+              <a class="text-white" href="https://bagelbrands.com/loyalty-program-terms-and-conditions/" target="_blank" title="Rewards Terms &amp; Conditions">
+              Rewards Program Terms &amp; Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="row d-flex justify-content-center text-center">
+          <a href='https://play.google.com/store/apps/details?id&#x3D;com.sourceapp.ebb&amp;hl&#x3D;en_US'>
+          <img height="50" alt='Get it on Google Play'
+          src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+          </a>
+  
+          <a href='https://itunes.apple.com/us/app/einstein-bros-bagels/id1405128897?mt&#x3D;8'>
+          <img  height="53" style="padding:8px" alt="Download on the App Store"
+          src='/images/appstore.png'/>
+          </a>
+  
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-unstyled"  style="font-size: 2.5rem">
+              <li class="d-inline-block px-md-3 px-2">
+                <a class="text-secondary" href="https://www.facebook.com/einsteinbros" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li class="d-inline-block px-md-3 px-2">
+                <a class="text-secondary" href="https://www.youtube.com/user/EinsteinBrosBGL" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              </li>
+              <li class="d-inline-block px-md-3 px-2">
+                <a class="text-secondary" href="https://www.instagram.com/einsteinbros" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li class="d-inline-block px-md-3 px-2">
+                <a class="text-secondary" href="https://twitter.com/einsteinbros" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="/javascripts/bundle.a3b5c1881d3ec0521310.js"></script>
+</body>
+</html>

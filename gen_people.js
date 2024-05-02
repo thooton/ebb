@@ -1,4 +1,4 @@
-const faker = require('@faker-js/faker').faker;
+
 const fs = require("fs");
 
 function profile(first, last, areaCode) {
@@ -45,29 +45,33 @@ const white_last_all = [
     "Reeves"  
 ];
 
-const batches = [];
+const people = [];
 for (let i = 0; i < 4; i++) {
     const viet_last = viet_last_all[i];
     const white_last = white_last_all[i];
-    const batch = [];
     for (const viet_first of viet_first_415) {
-        batch.push(profile(
-            viet_first, viet_last, 415
-        ));
+        people.push({
+            first: viet_first,
+            last: viet_last,
+            area: 415
+        });
     }
     for (const white_first of white_first_602) {
-        batch.push(profile(
-            white_first, white_last, 602
-        ));
+        people.push({
+            first: white_first,
+            last: white_last,
+            area: 602
+        });
     }
     for (const white_first of white_first_917) {
-        batch.push(profile(
-            white_first, white_last, 917
-        ));
+        people.push({
+            first: white_first,
+            last: white_last,
+            area: 917
+        });
     }
-    batches.push(batch);
 }
 
-fs.writeFileSync("batches.json", JSON.stringify(
-    batches, null, 4
+fs.writeFileSync("people.json", JSON.stringify(
+    people, null, 4
 ));

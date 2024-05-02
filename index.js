@@ -1,8 +1,47 @@
 const querystring = require("querystring");
 const fs = require("fs");
+const crypto = require("crypto");
 
 function getCsrf(text) {
     return text.match(/<input type="hidden" name="_csrf" value="([^"]+)" \/>/)[1];
+}
+
+function rnd(start, end) {
+    return crypto.randomInt(start, end);
+}
+
+const domains = [
+    "yahoo",
+    "hotmail",
+    "gmail",
+    "outlook"
+];
+function getEmail(first, last) {
+    const domain = domains[
+        Math.floor(Math.random() * domains.length)
+    ];
+    const number = rnd(1, 100);
+    return first.toLowerCase()
+        + last.toLowerCase()
+        + number
+        + "@"
+        + domain
+        + ".com";
+}
+
+function getNumber(area) {
+    return area + "" + rnd(
+        1_000_000,
+        10_000_000
+    );
+}
+
+function randBirthday() {
+    return (
+        (rnd(1, 13) + "").padStart(2, "0")
+        + "/" + (rnd(1, 31) + "").padStart(2, "0")
+        + "/" + rnd(1945, 2000)
+    );
 }
 
 async function register({
@@ -59,7 +98,7 @@ async function register({
             "Sec-Fetch-User": "?1"
         },
         "referrer": "https://rewards.einsteinbros.com/join",
-        "body": log(querystring.stringify({
+        "body": querystring.stringify({
             firstName: first,
             lastName: last,
             birthday,
@@ -73,7 +112,7 @@ async function register({
             passwordConfirmation: "%Ser3}*a]Usy9-Y",
             joinfull: "1",
             _csrf: csrf2
-        })),
+        }),
         "method": "POST",
         "mode": "cors"
     });
@@ -83,8 +122,32 @@ async function register({
     }
 }
 
-async function main() {
+const people = JSON.parse(fs.readFileSync("./people.json"));
 
+async function main() {
+    for (const {first, last, area} of people) {
+        let phone;
+        for (;;) {
+            phone = getNumber(area);
+            console.log(first, last, phone);
+            try {
+                await register({
+                    email: getEmail(first, last),
+                    phone,
+                    first,
+                    last,
+                    birthday: randBirthday(),
+                    city: "Phoenix",
+                    state_code: "AZ",
+                    zip_code: "85050"
+                });
+                break;
+            } catch (e) {
+                console.log("failed", e);
+            }
+        }
+        fs.appendFileSync("accounts.txt", `${first} ${last} - ${phone}\n`);
+    }
 }
 
 main();
